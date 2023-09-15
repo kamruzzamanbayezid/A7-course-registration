@@ -1,5 +1,5 @@
 
-const Course = ({ course }) => {
+const Course = ({ course, handleAddCourse }) => {
 
       const { img, name, details, credits, price, id } = course;
       return (
@@ -19,7 +19,7 @@ const Course = ({ course }) => {
                               </div>
                         </div>
                         <div className="card-actions mt-5">
-                              <button className="btn btn-primary w-full text-[#FFF] text-lg font-semibold bg-[#2F80ED] border-[#2F80ED;]">Select</button>
+                              <button onClick={()=>handleAddCourse(course)} className="btn btn-primary w-full text-[#FFF] text-lg font-semibold bg-[#2F80ED] border-[#2F80ED;]">Select</button>
                         </div>
                   </div>
             </div>
