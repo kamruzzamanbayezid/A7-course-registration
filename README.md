@@ -1,16 +1,16 @@
 # Course Registration Project!
 
-Welcome to our programming related courses platform! This platform helps you to improve your skills. Below, we provide some essential information on how to select courses.
+Welcome to our programming related courses platform! This platform helps you to improve your programming skills. Below, we provide some essential information on how to select courses.
 
 ## Course Selection
 
-You can select one or more courses as per your requirement by following the conditions given below:
+You can select one or more courses by following the conditions given below:
 
-1. **Navigate to the Course Catalog**: Browse our courses to find your required courses.
+1. Browse our courses to find your courses that you want to enroll to improve your skill.
 
-2. **Select Courses**: Click on the courses you wish to enroll in. You can select multiple courses at once.
+2. Click on the courses you wish to enroll in. You can select multiple courses at once.
 
-3. **View Course Details**: After selecting a course, you'll be able to access detailed information on your personalized dashboard. This includes:
+3. **View Course Details** :
 
    - **Course Title**: The name of the selected course.
    - **Price**: The cost of the course.
