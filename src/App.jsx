@@ -11,7 +11,7 @@ function App() {
   const [selectedCourse, setSelectedCourse] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
   const [totalCredit, setTotalCredit] = useState(0);
-  const [remainingCredits, setRemainingCredit] = useState(0);
+  const [remainingCredits, setRemainingCredit] = useState(20);
 
   const handleAddCourse = (course) => {
     const isSelected = selectedCourse.find(exist => exist.id === course.id)
@@ -56,7 +56,7 @@ function App() {
   return (
     <div className='main-container'>
       <Header></Header>
-      <div className='flex gap-6'>
+      <div className='lg:flex gap-6'>
         <Courses handleAddCourse={handleAddCourse}></Courses>
         <Cart
           selectedCourse={selectedCourse}

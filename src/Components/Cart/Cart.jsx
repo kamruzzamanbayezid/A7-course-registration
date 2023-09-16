@@ -2,7 +2,7 @@
 const Cart = ({ selectedCourse, totalPrice, totalCredit, remainingCredits }) => {
       console.log(selectedCourse);
       return (
-            <div className="w-1/4 bg-[#FFF] rounded-xl h-fit p-6">
+            <div className="lg:w-1/4 mt-4 lg:mt-0 bg-[#FFF] rounded-xl h-fit p-6">
                   <h1 className="text-[#2F80ED] text-lg font-bold pb-4 border-b-2 border-gray-300 mb-4">Credit Hour Remaining {remainingCredits} hr</h1>
 
                   <h1 className="text-[#1C1B1B] text-xl font-bold ">Course Name</h1>

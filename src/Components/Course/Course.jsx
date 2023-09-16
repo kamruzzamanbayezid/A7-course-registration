@@ -5,11 +5,11 @@ import { FiDollarSign } from 'react-icons/fi';
 
 const Course = ({ course, handleAddCourse }) => {
 
-      const { img, name, details, credits, price, id } = course;
+      const { img, name, details, credits, price } = course;
       return (
             <div className="card card-compact bg-[#FFF] ">
-                  <figure className="mt-4"><img src={img} alt="Shoes" /></figure>
-                  <div className="card-body ml-1">
+                  <figure className="mt-4 px-[14px]"><img className='w-full' src={img} alt="Shoes" /></figure>
+                  <div className="card-body">
                         <h1 className="text-[#1C1B1B] text-lg font-semibold mb-1">{name}</h1>
                         <p className="text-[#1c1b1b99] text-sm font-normal mb-3">{details}</p>
                         <div className="flex justify-between">
